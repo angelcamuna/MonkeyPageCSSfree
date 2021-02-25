@@ -13,8 +13,8 @@ body{
 #container{
   display:grid;
   border: 1px solid red;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: calc(35vh - 10px) calc(10vh - 10px);
+  grid-template-columns: 5vh 1fr 1fr 1fr 1fr 5vh;
+  grid-template-rows: calc(5vh - 0px) calc(35vh - 0px) calc(5vh - 0px);
   grid-column-gap: 10px;
   grid-row-gap: 10px;
 }
@@ -23,8 +23,9 @@ body{
   padding: 9px;
   background-color:#000000;
   border-radius: 5px;
-  grid-column:
-  grid-row:
+  grid-column:1:2;
+  grid-row:1:2;
+  grid-template-rows: 30px 2fr;
 }
 
 #container .celda1 img{
@@ -41,6 +42,8 @@ width: 100%;
   padding: 9px;
   background-color:#FFFFFF;
   border-radius: 5px;
+  grid-column:2:3;
+  grid-row:1:2;
 }
 #container .celda2 img{
 height: 100%;
@@ -54,6 +57,8 @@ width: 100%;
   padding: 9px;
   background-color:#000000;
   border-radius: 5px;
+  grid-column:3:4;
+  grid-row:1:2;
 }
 #container .celda3 img{
 height: 100%;
@@ -65,6 +70,8 @@ width: 100%;
   padding: 9px;
   background-color:#FFFFFF;
   border-radius: 5px;
+  grid-column:4:5;
+  grid-row:1:2;
 }
 #container .celda4 img{
 height: 100%;
@@ -76,31 +83,69 @@ width: 100%
   padding: 9px;
   background-color:#000000;
   border-radius: 5px;
+  grid-column:1:2;
+  grid-row:2:3;
 }
+#container .celda5 img{
+height: 100%;
+width: 100%
+}
+
+
 
 #container .celda6{
   padding: 9px;
   background-color:#FFFFFF;
   border-radius: 5px;
+  grid-column:2:3;
+  grid-row:2:3;
 }
+#container .celda6 img{
+height: 100%;
+width: 100%
+}
+
+
 
 #container .celda7{
   padding: 9px;
   background-color:#000000;
   border-radius: 5px;
+  grid-column:3:4;
+  grid-row:2:3;
 }
+#container .celda7 img{
+height: 100%;
+width: 100%
+}
+
+
 
 #container .celda8{
   padding: 9px;
   background-color:#FFFFFF;
   border-radius: 5px;
+  grid-column:4:5;
+  grid-row:2:3;
 }
+#container .celda8 img{
+height: 100%;
+width: 100%
+}
+
+
+
 
 #container .celda9{
   padding: 9px;
   background-color:#000000;
   border-radius: 5px;
 }
+#container .celda9 img{
+height: 100%;
+width: 100%
+}
+
 
 .parent {
 display: grid;
