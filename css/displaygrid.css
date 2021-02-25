@@ -5,9 +5,9 @@
 
 body{
   font-family: 'Ubuntu', sans-serif;
-  background-color: #EFEFEF;
+  background-color: #000000;
   color:white;
-  font-size: 22px;;
+  font-size: 22px;
 }
 
 #container{
@@ -31,6 +31,7 @@ body{
 #container .celda1 img{
 height: 100%;
 width: 100%;
+
 
 
 
