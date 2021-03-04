@@ -14,7 +14,7 @@ body{
   display:grid;
   border: 1px solid gold;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: calc(1fr - 0px);
+  grid-template-rows: calc(50vh - 0px);
   grid-column-gap: 10px;
   grid-row-gap: 10px;
 }
