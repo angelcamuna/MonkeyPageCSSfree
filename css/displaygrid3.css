@@ -42,6 +42,29 @@ border-radius:22px;
   overflow:hidden;
 
 }
+#container2 .videocentro1{
+  padding: 9px;
+  background-color:none;
+  border-radius: 5px;
+  grid-column:1:2;
+  grid-row:2:3;
+}
+#container2 .videocentro1 img{
+height: 100%;
+width: 100%;
+border-radius:22px;
+
+}
+#container2 .videocentro1 video{
+  margin-left: 49.5vw;
+  transform: translate(-50%);
+  width:40%;
+  -moz-border-radius:40px;
+  -webkit-border-radius:40px;
+  border-radius:22px;
+  overflow:hidden;
+
+}
 
 #container2 .titulo{
   padding: 9px;
