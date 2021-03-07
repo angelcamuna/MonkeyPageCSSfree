@@ -1,0 +1,54 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #000000;
+  color:white;
+  font-size: 22px;
+}
+
+#container2{
+  display:grid;
+  border: 1px solid red;
+  grid-template-columns: 1fr;
+  grid-template-rows: calc(10vh - 0px) calc(80vh - 0px)  ;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+#container2 .videocentro{
+  padding: 9px;
+  background-color:none;
+  border-radius: 5px;
+  grid-column:1:2;
+  grid-row:2:3;
+}
+#container2 .videocentro img{
+height: 100%;
+width: 100%;
+border-radius:22px;
+
+}
+#container2 .videocentro video{
+  margin-left: 49.5vw;
+  transform: translate(-50%);
+  width:60%;
+  -moz-border-radius:40px;
+  -webkit-border-radius:40px;
+  border-radius:22px;
+  overflow:hidden;
+
+}
+
+#container2 .titulo{
+  padding: 9px;
+  text-align: center;
+  margin-top: 5px;
+  background-color:none;
+  border-radius: 5px;
+  grid-column:1/2;
+  grid-row:1/2;
+}

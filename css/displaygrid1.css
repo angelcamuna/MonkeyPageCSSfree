@@ -41,7 +41,9 @@ width: 100%;
 
 #container1 .celda2{
   padding: 9px;
-  background-color:#000000;
+  margin: 25px;
+  align-content: center;
+  background-color:none;
   border-radius: 5px;
   grid-column:2:3;
   grid-row:1:2;
@@ -53,6 +55,26 @@ width: 100%;
 }
 
 #container1 .celda2 video{
+height: 100%;
+width: 100%;
+
+}
+
+
+#container1 .celda3{
+  padding: 9px;
+  background-color:#000000;
+  border-radius: 5px;
+  grid-column:2:3;
+  grid-row:1:2;
+}
+#container1 .celda3 img{
+height: 100%;
+width: 100%;
+
+}
+
+#container1 .celda3 video{
 height: 100%;
 width: 100%;
 
