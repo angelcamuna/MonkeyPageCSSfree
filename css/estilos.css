@@ -46,6 +46,26 @@ p a{
 
 
 }
+h1 {
+  text-decoration: none;
+  color: #FFF;
+  font-family: 'Nunito', sans-serif;
+  font-weight: lighter;
+  font-size: none;
+  font-size: 50px;
+}
+
+
+h1 a{
+  text-decoration: none;
+  color: #FFF;
+  font-family: 'Nunito', sans-serif;
+  font-weight: lighter;
+  font-size: none;
+
+
+
+}
 
 .cool-link::after {
   content: '';
