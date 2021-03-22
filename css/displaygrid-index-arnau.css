@@ -14,7 +14,7 @@ body{
   display:grid;
   border: 1px solid red;
   grid-template-columns: 1fr 1fr 1fr 1fr     ;
-  grid-template-rows: calc(10vh - 0px) calc(5vh - 0px) calc(35vh - 0px) calc(5vh - 0px) calc(5vh - 0px) calc(35vh - 0px) calc(5vh - 0px) calc(5vh - 0px) calc(35vh - 0px);
+  grid-template-rows: calc(10vh - 0px) calc(7vh - 0px) calc(35vh - 0px) calc(3vh - 0px) calc(7vh - 0px) calc(35vh - 0px) calc(3vh - 0px) calc(7vh - 0px) calc(35vh - 0px);
   grid-column-gap: 10px;
   grid-row-gap: 10px;
   padding-left: 30px;
