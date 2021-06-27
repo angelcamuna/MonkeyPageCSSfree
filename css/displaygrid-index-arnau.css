@@ -14,7 +14,7 @@ body{
   display:grid;
   border: 1px solid red;
   grid-template-columns: 1fr 1fr 1fr 1fr     ;
-  grid-template-rows: calc(10vh - 0px) calc(7vh - 0px) calc(35vh - 0px) calc(3vh - 0px) calc(7vh - 0px) calc(35vh - 0px) calc(3vh - 0px) calc(7vh - 0px) calc(35vh - 0px);
+  grid-template-rows: 10vh 7vh 35vh 3vh 7vh 35vh 3vh 7vh 35vh 3vh 7vh 35vh 30vh 1vh 200vh ;
   grid-column-gap: 10px;
   grid-row-gap: 10px;
   padding-left: 30px;
@@ -316,10 +316,123 @@ body{
 }
 
 
+#container .celda13{
+  padding: 9px;
+  background-color:none;
+  border-radius: 5px;
+  grid-column:1/2;
+  grid-row: 12/13;
+}
+  #container .celda13 img{
+  height: 100%;
+  width: 100%;
+  border-radius:22px;
+}
 
 
 
+#container .celda14{
+  padding: 9px;
+  background-color:none;
+  border-radius: 5px;
+  grid-column:2/3;
+  grid-row: 12/13;
+}
+  #container .celda14 img{
+  height: 100%;
+  width: 100%;
 
+  border-radius:22px;
+}
+
+
+
+#container .celda15{
+  padding: 9px;
+  background-color:none;
+  border-radius: 5px;
+  grid-column:3/4;
+  grid-row: 12/13;
+}
+  #container .celda15 img{
+  height: 100%;
+  width: 100%;
+  border-radius:22px;
+}
+
+
+
+#container .celda16{
+  padding: 9px;
+  background-color:none;
+  border-radius: 5px;
+  grid-column:4/5;
+  grid-row: 12/13;
+}
+  #container .celda16 img{
+  height: 100%;
+  width: 100%;
+  border-radius:22px;
+}
+
+#container .titulo13{
+  padding: 9px;
+  background-color:none;
+  border-radius: 5px;
+  grid-column:1/2;
+  grid-row:11/12;
+  grid-template-rows: 30px 2fr;
+}
+
+#container .titulo14{
+  padding: 9px;
+  background-color:none;
+  border-radius: 5px;
+  grid-column:2/3;
+  grid-row:11/12;
+  grid-template-rows: 30px 2fr;
+}
+
+#container .titulo15{
+  padding: 9px;
+  background-color:none;
+  border-radius: 5px;
+  grid-column:3/4;
+  grid-row:11/12;
+  grid-template-rows: 30px 2fr;
+}
+
+#container .titulo16{
+  padding: 9px;
+  background-color:none;
+  border-radius: 5px;
+  grid-column:4/5;
+  grid-row:11/12;
+  grid-template-rows: 30px 2fr;
+}
+
+#container .bunnytitulo {
+  padding: 9px;
+  margin: auto;
+  background-color:none;
+  border-radius: 5px;
+  grid-column:2/4;
+  grid-row: 14/15;
+  grid-template-rows: 30px 2fr;
+}
+#container .bunnyfucker{
+  padding: 9px;
+  background-color:none;
+  border-radius: 5px;
+  grid-column:2/4;
+  grid-row: 15/16;
+}
+  #container .bunnyfucker img{
+  padding: inherit;
+  height: 100%;
+  width: 100%;
+  border-radius:22px;
+}
 
 #container .dobletexto1{
   padding: 9px;
